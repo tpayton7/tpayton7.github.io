@@ -33,13 +33,13 @@ $(function () {
     // TODO 2 - Create Platforms
 //createPlatform(xPos, yPos, Width, Height)
 createPlatform(200, 700, 100, 5)
-
 createPlatform(400, 600, 100, 6)
-createPlatform(400, 500, 100, 5)
+createPlatform(400, 500, 100, 10,"green",200,800)
 createPlatform(600, 400, 100, 5)
+createPlatform(800, 300, 100, 5,"green",200,800)
     // TODO 3 - Create Collectables
-
-
+//createCannon("wall", pos, secondsX1000, width, height)
+createCannon("top", 500, 3000, 100, 40)
 
 
     // TODO 4 - Create Cannons
