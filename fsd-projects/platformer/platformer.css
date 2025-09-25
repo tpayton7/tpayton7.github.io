@@ -3,7 +3,10 @@ body {
 }
 
 canvas {
-  background-color: lightblue;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpJun_GTulqZfTAiqdoxZqeHWyppJz24lAfQ&s");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
   margin: 20px;
 }
 
